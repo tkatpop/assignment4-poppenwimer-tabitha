@@ -94,8 +94,8 @@ footer{
 
 .UFO{
     position: absolute;
-    animation: fly 5s both 1s infinite ease-in-out;
-    
+    animation: fly 7s alternate infinite ease-in-out;
+
 }
 
 @keyframes fly{
@@ -104,11 +104,11 @@ footer{
         top:50px;
     }
     25%{
-        left:1050px;
+        left:1150px;
         top:100px;
     }
     50% {
-        left:1050px;
+        left:1300px;
         top:600px;
     }
     75%{
@@ -116,8 +116,8 @@ footer{
         top:800px;
     }
     100%{
-        left:-50px;
-        top:-50px;
+        left:-60px;
+        top:400px;
     }
  
 }
