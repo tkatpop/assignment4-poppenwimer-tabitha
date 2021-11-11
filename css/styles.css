@@ -15,6 +15,7 @@ h1{
     padding: 20px;
     margin: 50px; 
     font-size: 50px;
+    font-weight: normal;
 }
 
 nav{
@@ -40,16 +41,28 @@ a:hover{
 }
 
 section{
-    float: left;
+    float: right;
     width: 400px;
-    font-size: 20px;
-    margin: 200px 10px 10px 10px;
+    font-size: 24px;
+    margin: 180px 10px 100px 10px;
     padding: 10px;
     }
 
 div{
     position: absolute;
-    margin: 100px 500px 10px;
+    margin: 100px 100px 30px;
     background-color: #696969;
     padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.First{
+    padding:10px;
+}
+
+.Second{
+    padding:10px;
 }
