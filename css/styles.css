@@ -29,7 +29,7 @@ nav{
 }
 
 a{ 
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     color: whitesmoke;
     background: #696969; 
@@ -45,21 +45,31 @@ a:hover{
     transition: 1s
 }
 
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /*======Explaination Quotes======*/
 
 section{
-    float: right;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
     width: 400px;
     font-size: 24px;
-    margin: 180px 150px 100px 10px;
     padding: 10px;
     }
 
+.Raven{
+    float:right;
+}
 /*=======Lore cover Image======*/
 
 .Coverart{
-    position: absolute;
-    margin: 100px 100px 30px 250px;
+    display: inline-block;
+    position: relative;
+    top: 180px;
     background-color: #696969;
     padding: 10px;
 }
@@ -82,11 +92,12 @@ span{
 /* =========Footer======*/
 
 footer{
-    margin: 600px 100px 100px;
+    margin: 300px 100px 100px;
     position: relative;
 }
 .Foot{
     font-style: italic;
+    font-size: 24px;
     padding: 10px;
 }
 
@@ -108,7 +119,7 @@ footer{
         top:100px;
     }
     50% {
-        left:1300px;
+        left:1200px;
         top:600px;
     }
     75%{
