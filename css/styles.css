@@ -21,6 +21,7 @@ h1{
 nav{
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 a{ 
@@ -65,4 +66,13 @@ span{
 
 .Second{
     padding:10px;
+}
+
+footer{
+    margin: 600px 100px 100px;
+    position: relative;
+}
+.Foot{
+    font-style: italic;
+    padding: 10px;
 }
