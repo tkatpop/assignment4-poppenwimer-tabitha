@@ -12,7 +12,10 @@
 
                         <div class="text-container">
                             <h2><?php the_title(); ?></h2>
-                            <p><?php echo 'Post Written By: ' . get_the_author() . ' | Published On: ' . get_the_date(); ?></p>
+                            <?php
+                                    //Display Author and Publish Date Links
+                                    post_data();
+                                ?>
                             <p class="body-content"><?php the_content(); ?></p>
                         </div>
                     </div>

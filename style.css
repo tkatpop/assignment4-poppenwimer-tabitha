@@ -24,7 +24,7 @@ a{
 }
 
 a:hover{
-    color:#9c9fa7;
+    color:#3f322d;
     text-decoration: underline;
     text-shadow: .5px .5px #181311;
 }
@@ -44,7 +44,8 @@ h1{
     font-style: normal;
 }
 
-h2{ 
+h2,
+h3{ 
     font-family: arboria, sans-serif;
     font-weight: 400;
     font-style: normal;

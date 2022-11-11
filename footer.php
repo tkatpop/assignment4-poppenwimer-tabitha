@@ -1,6 +1,6 @@
         <!-- <div class="footer"> -->
             <?php wp_footer(); ?>
-            <h4>This is where the footer goes </h4>
+            <h3>This is where the footer goes </h3>
         <!-- </div> -->
 
     </body>

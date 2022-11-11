@@ -36,4 +36,15 @@ remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
 //Featured Images
 add_theme_support('post-thumbnails');
 
+//Post Data Information
+function post_data(){
+    $archive_year = get_the_time('Y');
+    $archive_month = get_the_time('m');
+    $archive_day = get_the_time('d');
+?>
+    <p>Written By: <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author(); ?></a> | Published On: <a href="<?php echo get_day_link($archive_year,$archive_month,$archive_day); ?>"><?php echo "$archive_month/$archive_day/$archive_year"; ?></a></p>
+<?php
+
+}
+
 ?>
