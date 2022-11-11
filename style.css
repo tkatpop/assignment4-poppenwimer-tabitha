@@ -1,0 +1,57 @@
+/*
+Theme Name: Assignment 4
+Theme URI:
+Author: Tabitha Poppenwimer
+Author URI: https://tpoppenwimer.com
+Description: Theme for class assignment number 4
+Version: 1.0.0
+License: GNU General Public License v2 or Later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+Text Domain: assignment4
+
+This is for educational purposes only
+*/
+
+
+/* .footer{
+    background: #3f322d;
+    color: #fcecd5;
+} */
+
+a{
+    text-decoration: none;
+    color:#3f322d;
+}
+
+a:hover{
+    color:#9c9fa7;
+    text-decoration: underline;
+    text-shadow: .5px .5px #181311;
+}
+
+body{
+    background: #fcecd5;
+    color: #181311;
+    font-family: dejanire-headline, serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2{ 
+    font-family: arboria, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.featured-image img{
+    background: #bac6d7;
+    padding: 5px;
+    border: 5px solid #9c9fa7;
+}
