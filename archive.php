@@ -1,9 +1,9 @@
 <?php get_header(); ?>
- <div class="container">
+ <main class="container">
     <div class="row">
         <main class="col-md-9">
             <section class="archive-container">
-                <h2 class="archive-title">
+                <h1 class="archive-title">
                     <?php 
                         if(is_category()){
                             single_cat_title();
@@ -19,14 +19,14 @@
                             echo "Archives";
                         }
                     ?>    
-                </h2>
+                </h1>
 
                 <?php
                     if(have_posts()){
                         while(have_posts()){
                             the_post(); ?>
                             <article class="individual-post">
-                                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
                                 <?php
                                     //Display Author and Publish Date Links
@@ -45,6 +45,6 @@
             </section>
         </main>
     </div>
- </div>
+ </main>
 
 <?php get_footer(); ?>

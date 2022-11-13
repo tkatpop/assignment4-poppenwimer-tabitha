@@ -24,7 +24,7 @@
                                 <?php
                             }else{
                                 ?>
-                                <a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image();?>" height="<?php echo get_cutom_header()->height; ?>" width="<?php echo get_cutom_header()->width; ?>" alt="Company Logo"/></a>
+                                <a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Company Logo"/></a>
                                 <?php
                             }
                         ?>
@@ -36,7 +36,6 @@
                             <?php
                                 wp_nav_menu(array(
                                     'theme_location'    => 'main-menu',
-                    
                                 ));
                             ?>
                         </nav>
