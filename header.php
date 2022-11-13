@@ -15,12 +15,12 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 logo-container"></div>
+                    <div class="col-lg-6 logo-container">
                         <?php
                             //Display Logo Image if set
                             if(get_header_image() == ''){
                                 ?>
-                                <h1><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a><h1>
+                                <h1><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
                                 <?php
                             }else{
                                 ?>
@@ -29,9 +29,18 @@
                             }
                         ?>
 
-                        
+                    </div>  
 
-                    <div class="col-lg-6 navigation"></div>
+                    <div class="col-lg-6 navigation">
+                        <nav class="custom-menu-class">
+                            <?php
+                                wp_nav_menu(array(
+                                    'theme_location'    => 'main-menu',
+                    
+                                ));
+                            ?>
+                        </nav>
+                    </div>
                 </div>
             </div>    
         </header>    
